@@ -41,11 +41,17 @@ button:hover {
 }
 
 .shopping-item {
-  display: block;
-  color: grey;
-  font-style: italic;
-  font-size: 20px;
-  margin-bottom: 15px;
+ font-family: 'Roboto Slab', serif;
+	font-weight: 300;
+	font-size: 3.2em;
+	color: black;
+	text-shadow: 0 0 10px rgba(0,0,0,0.8);
+	margin: 0 auto;
+	padding-top: 180px;
+
+	text-align: center;
+	text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .shopping-item__checked {
