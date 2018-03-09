@@ -41,10 +41,21 @@ button:hover {
 }
 
 .shopping-item {
- font-family: 'Roboto Slab', serif;
+  display: block;
+  color: black;
+  font-style: italic;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.shopping-item__checked {
+  text-decoration: line-through;
+}
+h1 {
+	font-family: 'Roboto Slab', serif;
 	font-weight: 300;
 	font-size: 3.2em;
-	color: black;
+	color: white;
 	text-shadow: 0 0 10px rgba(0,0,0,0.8);
 	margin: 0 auto;
 	padding-top: 180px;
@@ -52,8 +63,6 @@ button:hover {
 	text-align: center;
 	text-overflow: ellipsis;
     overflow: hidden;
-}
 
-.shopping-item__checked {
-  text-decoration: line-through;
+
 }
