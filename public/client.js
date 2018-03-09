@@ -153,7 +153,7 @@ function handleRecipeAdd() {
       '#ingredients-list').val().split(',').map(
         function(ingredient) { return ingredient.trim(); });
     addRecipe({
-      name: $(e.currentTarget).find('#recipe-name').val(),
+      name: $(e.currentTarget).find('#recipe-name1').val(),
       ingredients: ingredients
     });
   });
