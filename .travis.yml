@@ -7,6 +7,3 @@ deploy:
   app: node-shopping-list123
   on:
      repo: Karthikatoobler/node-shopping-list123
-stage: test production
-      script: 'curl https://node-shopping-list123.herokuapp.com/'
-  
