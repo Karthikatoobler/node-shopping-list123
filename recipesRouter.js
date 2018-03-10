@@ -44,7 +44,7 @@ router.post('/', jsonParser, (req, res) => {
 //   const item = Recipes.create(req.body.name, req.body.ingredients);                                                                               
 //    res.status(201).json(item);
 
-// });
+ });
 
 // Delete recipes (by id)!
 router.delete('/:id', (req, res) => {
